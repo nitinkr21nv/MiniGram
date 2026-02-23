@@ -43,4 +43,4 @@ Data is stored in memory, so it resets when server restarts.
 
 ---
 
-Made with &love; by Nitin Kumar
+Made with &hearts; by Nitin Kumar
