@@ -49,6 +49,10 @@ let profiles = [
 
 ];
 
+app.get("/", (req, res) => {
+    res.redirect("/profiles");
+});
+
 app.get("/profiles", (req, res) => {
     res.render("index.ejs", {profiles});
 });
@@ -118,3 +122,4 @@ app.listen(port, () => {
     console.log(`listening at ${port}`);
 
 });
+
