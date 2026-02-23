@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Your Profile</title>
+</head>
+<body>
+    <form method="post" action="/profiles/<%= profile.id %>?_method=PATCH">
+        <textarea placeholder="write your new bio" name="bio" rows="20" cols="30"><%= profile.bio %></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

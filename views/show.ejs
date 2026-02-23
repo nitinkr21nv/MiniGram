@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View In Detail</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="profile">
+    <h2>Welcome <%= profile.username %></h2>
+    <h3>Your Total Followers are: <%= profile.followers %></h3>
+    <h3>Your Total Following are: <%= profile.following %></h3>
+    <h4>Your current bio is:- <%= profile.bio %></h4>
+    <a href="http://localhost:8080/profiles/<%= profile.id %>/edit">Edit your bio:</a>
+    </div>
+
+</body>
+</html>
